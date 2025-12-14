@@ -1,11 +1,15 @@
-requests>=2.31.0
+requests
 tqdm
 google
+hdbscan
 ipykernel
+jupyterlab_widgets
+ipywidgets
 matplotlib
 numpy
 opencv-python
 openpyxl
+kaleido
 pandas
 pyarrow
 scikit-image
@@ -18,5 +22,3 @@ torch
 torchvision
 torchaudio
 umap-learn
-hdbscan
-kaleido
