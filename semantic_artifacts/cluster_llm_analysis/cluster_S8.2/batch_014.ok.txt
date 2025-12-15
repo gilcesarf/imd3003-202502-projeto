@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas do Apache Camel no cluster analisado compartilham uma arquitetura centralizada em tratamento de erros e roteamento com base em conteúdo. Essa estrutura suporta comunicação síncrona e assegura a robustez ao lidar com exceções.
+
+BULLETS:
+- Utilizam o padrão request-response para interações sincrônicas.
+- Implementam um mecanismo de tratamento de erros (error policy).
+- Incluem roteadores baseados em conteúdo (content-based-router) para direcionar mensagens com base nos critérios definidos.
+- Uso frequente do bloco try-catch para capturar e gerenciar exceções.
+- Definem propriedades e utilizam condicionais para escolher caminhos de roteamento.
+- Redirecionam mensagens para rotas específicas de tratamento de exceção em casos de erro.

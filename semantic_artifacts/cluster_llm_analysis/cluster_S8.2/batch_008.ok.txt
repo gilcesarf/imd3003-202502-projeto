@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas de integração Apache Camel analisadas compartilham uma arquitetura orientada a fluxos com um padrão comum que inclui o uso de estruturas condicionais para direcionar o fluxo de dados e a inclusão de tratamento de exceções. Essa configuração permite que os sistemas respondam de maneira flexível às diferentes situações operacionais.
+
+BULLETS:
+- Uso extensivo de EIP (Enterprise Integration Patterns) como Content-Based Router, Choice, Simple, DoTry/DoCatch.
+- Tratamento de exceções é um elemento essencial, com blocos DoCatch e ThrowException para lidar com erros específicos e gerais.
+- Rotas incluem múltiplas etapas de validação e processamento antes da resposta final.

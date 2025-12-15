@@ -18,6 +18,7 @@ scikit-posthocs
 scipy
 seaborn
 sentence-transformers
+tabulate
 torch
 torchvision
 torchaudio

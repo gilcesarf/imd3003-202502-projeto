@@ -1,0 +1,10 @@
+PARAGRAFO:
+As descrições analisadas indicam que várias rotas Apache Camel compartilham um conjunto comum de padrões arquiteturais e funcionais, especialmente em relação ao tratamento de erros. Esses designs se concentram em gerenciar exceções com políticas específicas e roteamentos condicionais.
+
+BULLETS:
+- Implementação de uma política de erro usando o patamar `error-policy`
+- Uso de blocos try-catch para capturar e lidar com exceções
+- Roteamento condicional utilizando `choice`, `when` ou `otherwise`
+- Tratamento diferenciado de diferentes tipos de exceções
+- Encaminhamento das mensagens tratadas para rotas específicas, como roteiros de erro ou endpoints de fila
+- Integração com componentes como XSLT e beans de validação/transformação

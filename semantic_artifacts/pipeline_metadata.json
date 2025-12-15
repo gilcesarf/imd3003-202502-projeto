@@ -1,0 +1,26 @@
+{
+  "created_at": "2025-12-15T00:59:41.137117",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "projection": {
+    "method": "UMAP",
+    "n_components": 3,
+    "trustworthiness": 0.9539723257219505
+  },
+  "clustering": {
+    "global": {
+      "method": "HDBSCAN",
+      "parameters": {
+        "min_cluster_size": 20,
+        "min_samples": 4,
+        "cluster_selection_method": "eom",
+        "epsilon": 0.0
+      }
+    },
+    "supercluster_opening": {
+      "method": "Agglomerative",
+      "n_clusters": 4,
+      "linkage": "ward"
+    }
+  },
+  "notes": "Clusters recompostos: HDBSCAN global + Agglomerative no supercluster"
+}
