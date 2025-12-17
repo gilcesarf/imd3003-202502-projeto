@@ -280,15 +280,6 @@ Esse comportamento indica a presença de variações semânticas relevantes dent
 
 Com o objetivo de investigar de forma mais aprofundada a organização estrutural dos agrupamentos identificados nas projeções bidimensionais, o UMAP foi estendido para uma projeção em três dimensões. A utilização de um espaço tridimensional permite maior expressividade geométrica, reduzindo sobreposições artificiais e facilitando a análise de estruturas hierárquicas que não se manifestam claramente em duas dimensões.
 
-A projeção UMAP 3D foi obtida por meio de um \textit{grid search} refinado, no qual foram avaliadas combinações dos parâmetros \textit{n\_neighbors} iguais a 10, 15, 20 e 25, \textit{min\_dist} iguais a 0.0, 0.05, 0.10 e 0.20, utilizando a métrica de similaridade cosseno. Para cada configuração, a qualidade da projeção tridimensional foi avaliada por meio da métrica de \textit{trustworthiness}, calculada com \texttt{n\_neighbors = 10}, comparando as relações de vizinhança no espaço original de 384 dimensões com aquelas preservadas no espaço reduzido.
-
-A melhor configuração identificada apresentou valores elevados de trustworthiness, indicando preservação consistente das estruturas locais após a redução dimensional. Essa projeção foi adotada como base para as etapas subsequentes de clusterização no espaço tridimensional.
-
-Inicialmente, foi aplicado o algoritmo DBSCAN sobre a projeção UMAP 3D selecionada, com o objetivo de identificar agrupamentos densos e regiões de ruído. Embora essa abordagem tenha permitido separar estruturas globais, observou-se novamente a formação de um agrupamento dominante concentrando uma parcela significativa das instâncias, caracterizando a presença de um supercluster.
-\subsection{UMAP 3D}
-
-Com o objetivo de investigar de forma mais aprofundada a organização estrutural dos agrupamentos identificados nas projeções bidimensionais, o UMAP foi estendido para uma projeção em três dimensões. A utilização de um espaço tridimensional permite maior expressividade geométrica, reduzindo sobreposições artificiais e facilitando a análise de estruturas hierárquicas que não se manifestam claramente em duas dimensões.
-
 A projeção UMAP 3D foi obtida por meio de um \textit{grid search} refinado, no qual foram avaliadas combinações dos parâmetros \textit{n\_neighbors} iguais a 10, 15, 20 e 25, \textit{min\_dist} iguais a 0.0, 0.05, 0.10 e 0.20, utilizando a métrica de similaridade cosseno. Para cada configuração, a qualidade da projeção tridimensional foi avaliada por meio da métrica de \textit{trustworthiness}, calculada com \texttt{n\_neighbors = 10}, comparando as relações de vizinhança no espaço original de 384 dimensões com aquelas preservadas no espaço reduzido. A melhor configuração apresentou valor de trustworthiness de aproximadamente 0.954, indicando elevada preservação das estruturas locais após a redução dimensional.
 
 Sobre a projeção UMAP 3D selecionada, foi inicialmente aplicado o algoritmo DBSCAN com o objetivo de identificar agrupamentos densos e regiões de ruído no espaço reduzido. A Figura~\ref{fig:umap3d-dbscan} apresenta o resultado dessa combinação, evidenciando a separação de estruturas globais, porém também mostrando que o supercluster identificado foi excessivamente fragmentado, inviabilizando o uso prático do resultado.
@@ -425,4 +416,3 @@ As classes java bem como as descrições semanticas foram omitidas para preserva
 O código-fonte das classes que processam os fontes Java e geram os embeddings, entretanto, estão disponíveis juntamente com os notebooks.
 % -------------------------------------------------
 \end{document}
-
