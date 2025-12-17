@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas pertencem a um cluster de serviços web e integrações em uma arquitetura orientada a microserviços, onde o Apache Camel é utilizado como framework principal para definição das rotas.
+
+BULLETS:
+- Toda rota inicializa com a leitura ou recepção de uma mensagem via CXF
+- A maioria das rotas segue um fluxo padrão de processamento: origem → redirecionamento ou transformação → backend (ou saída direta)
+- Políticas de erro são tratadas em algumas rotas, mas não especificadas uniformemente

@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas são predominantemente do tipo request-response, envolvendo o processamento e transformação de mensagens entre sistemas. Os fluxos frequentemente incluem a manipulação de exceções através de políticas específicas.
+
+BULLETS:
+- A maioria das rotas segue um padrão de arquitetura EIP (Enterprise Integration Patterns), com uso frequente de components como setHeader, bean e xslt.
+- É comum encontrar a transformação do corpo da mensagem para XML ou JSON e vice-versa durante o processo.
+- As rotas geralmente envolvem um backend externo, como sistemas AS400 ou CXF, e manipulam a saída através de transformações XSLT.
+- A detecção de erros é uma função frequente, com tratamento diferenciado para diferentes tipos de exceções, incluindo timeout.
+- O uso do content-based-router permite direcionar mensagens baseadas em critérios específicos para caminhos de negócio distintos.

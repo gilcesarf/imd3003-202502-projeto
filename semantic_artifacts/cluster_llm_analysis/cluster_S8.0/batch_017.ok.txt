@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas Apache Camel analisadas compartilham características comuns relacionadas a padrões arquiteturais e funcionalidades de integração, como a utilização do Try-Catch para lidar com erros e o uso de componentes EIP (Enterprise Integration Patterns) típicos.
+
+BULLETS:
+- Uso frequente do pattern request-response
+- Implementação de políticas de tratamento de exceções
+- Utilização de transformações XSLT em várias etapas das rotas
+- Inclusão de beans para processamento específico ou backend invocação
+- Manipulação de erros através de roteadores e falhas definidas
+- Integração com serviços externos via CXF ou direto a endpoints JDBC/AS400

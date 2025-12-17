@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas no cluster do Apache Camel são predominantemente baseadas em padrões request-response, indicando uma interação síncrona. Elas utilizam intensivamente componentes de alto nível de EIPs como choice e simple para manipular e transformar mensagens entre diferentes formatos, como JSON e XML. A execução de lógica de negócios via beans é também uma prática comum.
+
+BULLETS:
+- Predominância de padrões request-response
+- Extensivo uso de EIPs como choice e simple
+- Manipulação e transformação entre formatos JSON e XML
+- Execução de lógica de negócios em beans

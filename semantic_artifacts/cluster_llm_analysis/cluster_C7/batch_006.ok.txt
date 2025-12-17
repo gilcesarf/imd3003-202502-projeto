@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas são caracterizadas por padrões arquiteturais síncronos de integração, utilizando a componente AWS2-SQS para comunicação entre sistemas.
+
+BULLETS:
+- Padrão arquitetural request-response/síncrono
+- Uso da componente AWS2-SQS para integração com serviços AWS
+- Implementação padrão do Camel para tratamento de erros

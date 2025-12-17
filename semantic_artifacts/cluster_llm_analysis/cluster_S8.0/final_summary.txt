@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas do Apache Camel compartilham padrões arquiteturais comuns, como request-response e content-based-router, com ênfase em integração de sistemas, transformações de dados via XSLT e tratamento de erros. Essas rotações são assíncronas ou incluem mecanismos para lidar com erros específicos, empregando componentes Camel como beans, xslt-saxon e choice.
+
+BULLETS:
+- Predominância do padrão request-response
+- Uso de Enterprise Integration Patterns (EIPs) como content-based-router e error-handling
+- Transformações XML via XSLT (xslt-saxon)
+- Tratamento de exceções com componentes beans, choice e políticas específicas de erro
+- Integração com sistemas heterogêneos através de endpoints como CXFRS, AS400, ActiveMQ, AWS SQS e cxf:{{endpoint}}
+- Emprego de marshalling/unmarshalling para conversão entre diferentes formatos

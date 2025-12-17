@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas demonstram padrões arquiteturais comuns na integração de sistemas utilizando o Apache Camel, especialmente em fluxos request-response. 
+
+BULLETS:
+- As rotas usam componentes AWS SQS para comunicação assíncrona.
+- A maioria das rotas inclui a autenticação ou consulta múltipla como etapas intermediárias.
+- Os tratamentos de erros são geralmente omitidos, indicando uma abordagem simplista à integração.

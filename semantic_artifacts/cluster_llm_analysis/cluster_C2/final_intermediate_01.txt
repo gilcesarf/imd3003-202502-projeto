@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas compartilham um padrão arquitetural comum que envolve a utilização do Apache Camel para processar solicitações de forma síncrona, implementando políticas de tratamento de erros e manipulando dados. A maioria das rotas segue o padrão request-response, utilizando componentes como try-catch, setProperty, beans e consultas SQL para processamento backend.
+
+BULLETS:
+- Utilizam padrões EIP (Enterprise Integration Patterns) como request-response e try-catch.
+- Incluem manipulação de erros com roteadores ou blocos doTry-doCatch.
+- Realizam consultas ao banco de dados utilizando componentes SQL ou sql-stored procedures.
+- Empregam beans para lógica de negócios e tratamento de respostas.
+- Transformam dados entre diferentes formatos, especialmente XML/JSON.
+- Mantêm logs para rastrear operações e erros.

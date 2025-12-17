@@ -1,0 +1,9 @@
+PARAGRAFO:
+As descrições semânticas apresentam padrões arquiteturais e funcionais comuns relacionados à manipulação de erros em rotas Apache Camel. Esses padrões envolvem a implementação de políticas de erro que incluem o uso de blocos try-catch, doTry/doCatch, onException, e tratamentos de exceção em componentes como AWS SQS.
+
+BULLETS:
+- Implementação de bloco try-catch ou equivalentes (doTry/doCatch, onException) para capturar exceções
+- Uso de bean para processamento de negócios
+- Marshalling do corpo da mensagem para JSON formatado
+- Envio de mensagens para fila AWS SQS como destino de erros
+- Registros detalhados de erros no log

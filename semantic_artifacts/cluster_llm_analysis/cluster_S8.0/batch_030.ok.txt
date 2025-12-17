@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas mostram uma forte presença do paradigma de integração EIP (Enterprise Integration Patterns) com o uso de componentes como bean, xslt e log. A maioria das rotas utiliza o padrão request-response para comunicação síncrona.
+
+BULLETS:
+- Predominância do padrão request-response
+- Utilização extensiva de transformações XSLT (xslt-saxon)
+- Tratamento de exceções com backup e log
+- Inclusão de componentes bean para processamento personalizado
+- Uso de roteadores (choice, content-based-router) para direcionar o fluxo com base em condições específicas
+- Integração com sistemas externos via CXFRS ou consultas SQL armazenadas

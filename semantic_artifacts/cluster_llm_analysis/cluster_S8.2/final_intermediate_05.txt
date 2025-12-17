@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas compartilham uma arquitetura orientada a mensagens, predominando o uso de padrões EIP como Request-Response e Content-Based Router. Essas rotas implementam tratamento de exceções com registro de logs e redirecionamentos para rotas específicas de erro, além de incluir lógica condicional através de choices e when.
+
+BULLETS:
+- Utiliza padrões EIP como Choice, DoTry/DoCatch, WireTap
+- Implementa tratamento de exceções com registro e redirecionamento para rotas específicas
+- Envolvimento em operações sincronas, via Request-Response
+- Inclusão de validações e transformações antes do back-end
+- Desenvolvimento de lógica condicional através de choices e when
+- Chamar beans para processamento específico de casos

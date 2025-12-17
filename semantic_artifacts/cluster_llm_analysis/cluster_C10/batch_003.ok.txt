@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas do Apache Camel analisadas compartilham o objetivo comum de lidar com erros durante a execução, utilizando padrões de arquitetura orientados a serviços (EIP) para gerenciar exceções e garantir a continuidade da integração.
+
+BULLETS:
+- Utilizam o patamar error-policy para capturar e lidar com exceções
+- Incluem a utilização de beans para manipulação do corpo da mensagem
+- Implementam mecanismos de log para registrar detalhes dos erros
+- Enviam os corpos das mensagens em erro para filas específicas (AWS SQS ou ActiveMQ)
+- Empregam o uso de marshalling e conversão de corpo para formatação JSON ou string
+- Incluem a utilização de doTry/doCatch para estruturar a lógica de exceção

@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas demonstram um forte foco em tratamento de erros e integração de diferentes sistemas, utilizando o Apache Camel. Eles geralmente envolvem a conversão de formatos e o gerenciamento de fluxos assíncronos.
+
+BULLETS:
+- Tratamento de erros é comum através da implementação de políticas de erro
+- Conversões entre formatos são realizadas, como marshalling para JSON
+- Logs são utilizados para monitorar as ações e tratar exceções
+- Integração de sistemas diferentes, incluindo ActiveMQ, AWS SQS e API Gateway

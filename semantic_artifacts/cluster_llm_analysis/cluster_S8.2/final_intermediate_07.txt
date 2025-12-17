@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas no Apache Camel seguem padrões arquiteturais comuns, implementando tratamento de exceções, decisões condicionais e roteamento baseado em conteúdo.
+
+BULLETS:
+- Utilização de EIP (Enterprise Integration Patterns) como choice e doTry-doCatch para lidar com exceções e direcionar fluxos.
+- Inclusão dos components direct e bean para criação de rotas e manipulação de dados.
+- Implementação de roteamento baseado em conteúdo e políticas de erro para controlar o fluxo das mensagens.
+- Integração de lógica personalizada através do uso de beans, propriedades e setProperty.

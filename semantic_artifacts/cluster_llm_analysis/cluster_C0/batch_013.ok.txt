@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas demonstram um padrão comum de integração utilizando o Apache Camel, focado em comunicação através do protocolo SOAP e componentes EIP. A maioria das rotas segue um fluxo semelhante, mas com variações no tratamento dos dados.
+
+BULLETS:
+- As rotas são predominantemente de tipo request-response.
+- Utilizam componentes como CXF para interagir com serviços web.
+- Incluem a remoção ou modificação de cabeçalhos HTTP conforme necessário.
+- Afinal, os dados são enviados para um endpoint definido.
+- Alguns casos incluem transformações XSLT e escolhas baseadas em propriedades.

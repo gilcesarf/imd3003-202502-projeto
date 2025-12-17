@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas Apache Camel compartilham um design comum para o tratamento de erros, utilizando padrões como try-catch e error-policy. Elas encaminham mensagens para filas específicas de erros em caso de falha e realizam transformações e manipulações do corpo da mensagem.
+
+BULLETS:
+- Utilizam o padrão try-catch ou doTry/doCatch para capturar exceções
+- Implementam políticas de erro com error-policy para lidar com falhas
+- Encaminham mensagens para filas específicas, como AWS SQS, ActiveMQ ou queues internas configuradas
+- Realizam transformações e manipulações do corpo da mensagem usando componentes como marshal/json e convertBodyTo
+- Incluem a utilização de beans para processamento personalizado antes da decisão de encaminhamento
+- Registram detalhes dos erros no log ou enviam para filas de erros

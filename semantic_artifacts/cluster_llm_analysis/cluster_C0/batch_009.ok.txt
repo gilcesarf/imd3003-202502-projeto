@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas são predominantemente do tipo request-response e usam as integrações de serviço (EIP - Enterprise Integration Patterns) fornecidas pelo Apache Camel. A maioria das rotas começa com um ponto de origem, pode envolver manipulação de cabeçalhos ou escolha entre diferentes caminhos, e encerra-se no retorno da resposta.
+
+BULLETS:
+- Predominantemente request-response
+- Uso de EIPs como choice, direct e process
+- Origem seguida por uma operação de backend
+- Sem lógica explícita de tratamento de erros em grande parte das rotas analisadas

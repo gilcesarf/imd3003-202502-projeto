@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas apresentam um conjunto comum de padrões arquiteturais e funcionalidades, caracterizados pela integração entre serviços por meio do protocolo Request-Response, a utilização de XSLT para transformações, manejo explícito ou implícito de exceções, e o envio de mensagens para filas de erros AWS SQS. 
+
+BULLETS:
+- Rotas com padrões de integração Request-Response
+- Utilização extensiva do XSLT para processamento XML
+- Tratamento explícito ou implícito de exceções, redirecionando para rota de erro ou filas SQS
+- Envio de mensagens para filas AWS SQS para tratamento de erros ou transações falhas

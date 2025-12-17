@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas pertencem a um cluster com padrões arquiteturais de integração comuns, principalmente request-response e content-based-router. A maioria das roteiras envolve validações e manipulações do corpo da mensagem.
+
+BULLETS:
+- Padrão arquitetural predominante: request-response
+- Inclusão de validação e tratamento de exceções
+- Uso de transformações XSLT para manipulação de dados
+- Integração com backends como AS400, ActiveMQ e AWS SQS
+- Tratamento condicional via content-based-router (Choice)
+- Restauração do corpo da mensagem em caso de erro

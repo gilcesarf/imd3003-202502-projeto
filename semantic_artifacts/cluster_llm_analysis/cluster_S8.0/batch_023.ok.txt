@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas compartilham a estrutura de request-response, utilizando diversos componentes do Apache Camel para manipulação e transformação de dados. A lógica geral é envolver a origem da mensagem, sua passagem por vários processos de transformação ou validação, interação com backend via protocolo definido (como AS400), e finalmente a geração de uma resposta.
+
+BULLETS:
+- Utilizam padrões arquiteturais como EIP (Enterprise Integration Patterns) para estruturar as rotas.
+- Incluem a capacidade de lidar com erros, seja por tratamento explícito ou encaminhamento para rota específica de exceção.
+- Ocorrem uma série de transformações, tanto no corpo da mensagem quanto nos cabeçalhos, usando components como bean e xslt.
+- A comunicação com o backend é geralmente definida através de endpoints diretos ou XSLT processados.
+- Exibem uma alta capacidade de personalização ao usar diferentes beans para invocar lógica customizada.

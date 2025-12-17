@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas se enquadram em um padrão comum baseado no paradigma request-response e utilizam o componente CXF para integração SOAP. A comunicação ocorre entre serviços externos e sistemas internos, com uma consistência na utilização de endpoints CXF beans.
+
+BULLETS:
+- Padrão arquitetural baseado em request-response
+- Utilização do componente CXF para integrações SOAP
+- Origem das mensagens é direcionada a backend para processamento antes da saída

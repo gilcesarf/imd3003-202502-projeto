@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas demonstram um padrão comum de integração, onde as comunicações são tipicamente sincronizadas e podem incluir o uso de Content-Based Router para direcionar fluxos com base em critérios específicos. As operações realizadas geralmente envolvem deserialização de formato externo, execução de lógica de negócios via beans, e serialização do resultado.
+
+BULLETS:
+- Usam o Content-Based Router (CBR) para direcionar fluxos com base em critérios
+- Realizam deserialização e serialização utilizando JSON e XML
+- Incluem a execução de lógica de negócio através de beans
+- Utilizam endpoints REST ou WS para comunicação externa

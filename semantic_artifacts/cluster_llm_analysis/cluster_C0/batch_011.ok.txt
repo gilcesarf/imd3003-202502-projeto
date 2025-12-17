@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas são predominantemente do tipo request-response e envolvem a integração SOAP, utilizando componentes como CXF e direct. A maioria das rotas origina-se em endpoints ou métodos definidos pelo cxf:bean.
+
+BULLETS:
+- Predominância de roteamento request-response
+- Integração SOAP via componentes CXF e cxf:bean
+- Origem de rotas em endpoints ou métodos CxfBean

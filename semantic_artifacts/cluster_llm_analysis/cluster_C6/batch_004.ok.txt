@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas indicam um padrão comum de integração centrado na detecção e manipulação de erros, utilizando o Apache Camel. Estas implementações envolvem ações como validação de mensagem, tratamento de exceções, log e redirecionamento para filas de erro.
+
+BULLETS:
+- Utilização de blocos try-catch (doTry/doCatch) para capturar e gerenciar exceções
+- Inclusão de componentes como bean para processamento personalizado e validação
+- Envio de mensagens tratadas ou erros a uma fila AWS SQS
+- Implementação de políticas de erro com registro detalhado no log
+- Adaptação do corpo da mensagem em caso de erro

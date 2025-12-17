@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas indicam uma arquitetura de processamento com requisição-resposta, utilizando o componente CXF para integração SOAP. A rota segue um fluxo padrão de origem a campana e posterior saída.
+
+BULLETS:
+- Componente CXF para integração SOAP
+- Arquitetura request-response
+- Fluxo de origem → campanas → saída

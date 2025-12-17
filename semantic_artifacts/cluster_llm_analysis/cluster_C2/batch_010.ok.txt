@@ -1,0 +1,11 @@
+PARAGRAFO:
+As rotas analisadas pertencem a um cluster onde a integração e o tratamento de exceções são comuns, utilizando a arquitetura EIP (Enterprise Integration Patterns) para implementar padrões como request-response, content-based router, transformation pipeline e try-catch block.
+
+BULLETS:
+- Utilização intensiva do Apache Camel para construção de rotas complexas
+- Implementação da pattern error-policy em várias rota
+- Uso frequentes de SQL-stored endpoints para execução de procedimentos armazenados
+- Integração com filas SQS para armazenamento temporário de erros
+- Captura e tratamento de exceções através de blocos try-catch, wire tap e beans
+- Transformação de dados via XPath, XSLT e processamento XML
+- Uso de choice e when para roteamento condicional baseado em conteúdo

@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas no cluster Apache Camel compartilham padrões comuns, focados principalmente na interação request-response e no tratamento robusto de erros. Esses padrões envolvem a implementação consistente de mecanismos para lidar com exceções, a utilização de estruturas como choice e bean, bem como a manipulação detalhada de cabeçalhos e headers.
+
+BULLETS:
+- Usam o padrão request-response para processamento sincrono.
+- Implementam manuseio de exceções através dos padrões EIP (como doTry/doCatch, choice) e beans.
+- Incluem etapas de transformação, logging e validação.
+- Utilizam endpoints específicos como CXFRS e AS400 para integração com outros serviços.
+- Garantem a robustez das transações através do tratamento explícito ou implícito de exceções em diversos pontos da rota.

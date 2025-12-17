@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas compartilham um padrão comum que envolve a utilização do Apache Camel para lidar com operações request-response, integrando diferentes componentes e mecanismos de tratamento de exceções. A maioria das rotas processa solicitações entrantes, define propriedades, executa operações SQL armazenadas e realiza transformações de dados.
+
+BULLETS:
+- Apresentam lógica de request-response utilizando Camel
+- Utilizam mecanismos EIP como choice e doTry/doCatch para gerenciar exceções
+- Integrar operações SQL armazenadas com endpoints diretos ou classes Java
+- Incluem transformação de dados, especialmente XML
+- Tratamento de erros personalizado através de beans e roteiros específicos

@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas compartilham um padrão de arquitetura baseado em request-response, com o objetivo principal de processar requisições e retornar respostas adequadas. A maioria das roteadoras utiliza uma sequência de transformações XSLT para manipular os dados entre diferentes endpoints.
+
+BULLETS:
+- Padrão arquitetural request-response predominante
+- Uso comum de componentes EIP como xslt, bean e choice
+- Transformações XSLT são frequentemente utilizadas para a entrada e saída de dados
+- Lidar com erros é uma prática universal, envolvendo beans e outros mecanismos de tratamento de exceção

@@ -6,6 +6,7 @@ ipykernel
 jupyterlab_widgets
 ipywidgets
 matplotlib
+nbconvert
 numpy
 opencv-python
 openpyxl

@@ -1,0 +1,10 @@
+PARAGRAFO:
+As descrições apresentam padrões arquiteturais e funcionais comuns que são essenciais para a integração de sistemas usando o Apache Camel. Estes designs frequentemente envolvem processos de tratamento de erros, manipulação de cabeçalhos, conversões de formatos e comunicação assíncrona.
+
+BULLETS:
+- Utilização de padrões arquiteturais como try-catch para gerenciamento de exceções
+- Tratamento condicional com base em cabeçalhos e expressões XPath
+- Conversão entre diferentes formatos, incluindo deserialização, serialização e codificação/decodificação
+- Comunicação assíncrona via filas (AWS SQS) para lidar com request-response padrões
+- Uso de componentes como process, setHeader, choice, simple, doTry, doCatch, bean e cxfrs para manipulação de mensagens
+- Definição e tratamento explícito de erros em várias etapas da rota

@@ -1,0 +1,23 @@
+PARAGRAFO:
+As rotas compartilham um padrão de arquitetura baseado no paradigma de integração, utilizando o framework Apache Camel. As operações são principalmente orientadas a mensagens e lidam com requisições-respostas.
+
+BULLETS:
+- Os endpoints variam entre roteadores diretos, WS, ActiveMQ e AS400.
+- A transformação XSLT é um componente recorrente na manipulação de dados.
+- O tratamento de erros é implementado em várias formas, incluindo redirecionamento para rotas específicas ou encaminhamento de mensagens a filas de erro.
+
+PARAGRAFO:
+As rotas são configuradas para lidar com diferentes padrões EIP (Enterprise Integration Patterns), como request-response e content-based-router, demonstrando flexibilidade na solução de problemas de integração.
+
+BULLETS:
+- Utilizam mecanismos de transformação XSLT para manipulação do corpo da mensagem.
+- Incluem operações de roteamento baseadas em conteúdo (content-based-router) que aplicam lógica XPATH.
+- Implementam políticas de erro e tratamentos personalizados, como redirecionamento para rotas específicas ou encaminhamento a filas de erros.
+
+PARAGRAFO:
+A maioria das rotas é configurada para suportar requisições sincronas (request-response), embora existam variações nisso dependendo do endpoint e do padrão EIP aplicado.
+
+BULLETS:
+- A lógica de roteamento é implementada através de componentes como setHeader, xpath, and choice.
+- Implementações específicas de tratamento de erros incluem registro detalhado de mensagens de erro e redirecionamento para rotas alternativas ou filas de erro.
+- O uso de bibliotecas Java (como Saxon) é comum para transformações XSLT e operações de roteamento.

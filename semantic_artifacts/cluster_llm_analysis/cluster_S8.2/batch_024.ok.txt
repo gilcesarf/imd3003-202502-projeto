@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas demonstram uma arquitetura orientada a componentes, utilizando Apache Camel para lidar com o fluxo de mensagens e políticas de erro. A maioria das rotas segue um padrão síncrono de request-response.
+
+BULLETS:
+- Implementa políticas de tratamento de erros comuns
+- Utiliza estruturas como try-catch para gerenciar exceções
+- Inclui etapas de transformação e configuração de propriedades
+- Encaminha mensagens ou fluxos para rotas específicas de tratamento de exceções em casos de erro

@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas demonstram um padrão arquitetural comum de tratamento de erros e integração entre sistemas, utilizando o Apache Camel para lidar eficientemente com exceções e garantir a continuidade da execução.
+
+BULLETS:
+- Utilização de blocos 'doTry-doCatch' ou 'error-policy' para capturar exceções
+- Envio de erros para uma fila AWS SQS como um meio de manuseamento 
+- Transformação do corpo da mensagem, com marshalling e conversão JSON
+- Registro detalhado dos erros no log
+- Configuração de credenciais default e URI das filas S3/SQS

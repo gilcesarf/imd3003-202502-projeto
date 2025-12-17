@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas compartilham um conjunto comum de padrões arquiteturais e funcionais, focados em processos de integração e validação.
+
+BULLETS:
+- As rotas operam no modelo request-response.
+- Utilizam componentes como choice, simple, bean, setProperty para lógica condicional e transformações.
+- Incluem tratamento de erros através de estruturas try-catch ou policies de erro.
+- Envolve o uso de endpoints para serviços externos (CXFRS, AWS2-SQS) e pipelines de transformação.

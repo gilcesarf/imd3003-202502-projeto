@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas do cluster Apache Camel demonstram um padrão arquitetural comum de integração de sistemas, utilizando Enterprise Integration Patterns (EIPs) e componentes específicos do Apache Camel.
+
+BULLETS:
+- Usam paterns como request-response, content-based-router e error-policy
+- Incluem transformações XML/XSLT para processamento de dados
+- Enviam mensagens para endpoints externos, como AS400RequestResponseRoute ou AWS2 SQS
+- Implementam tratamentos de erros definindo caminhos alternativos para mensagens com problemas
+- Utilizam marshalling e unmarshalling para converter entre diferentes formatos (por exemplo, XML para Java beans)

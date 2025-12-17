@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas compartilham a característica de serem comumente baseadas em um fluxo request-response, utilizando o componente CXFRS para lidar com chamadas de serviço web.
+
+BULLETS:
+- Utilizam o padrão EIP (Enterprise Integration Patterns) request-response
+- Empregam o componente CXFRS para integração de serviços web
+- As rotas podem iniciar direta ou indiretamente por meio do diretório direct ou CXFRS

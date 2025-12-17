@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas demonstram uma forte ênfase em tratamento e registro de erros, usando padrões comuns como doTry-catch e error-policy. A comunicação é frequentemente direcionada para filas AWS SQS ou outras filas específicas para erros.
+
+BULLETS:
+- Utiliza a estratégia doTry-catch para lidar com exceções
+- Trata de forma consistente as exceções, registrando detalhes em logs
+- Destina mensagens com erros para filas específicas (como AWS SQS)
+- Implementa políticas de erro para capturar e registrar exceções
+- A maioria das rotas não apresenta tratamento explícito de erros no padrão request-response

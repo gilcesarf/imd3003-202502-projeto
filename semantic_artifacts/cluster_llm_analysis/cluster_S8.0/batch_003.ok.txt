@@ -1,0 +1,10 @@
+PARAGRAFO:
+As descrições mostram uma arquitetura comumente encontrada em sistemas de integração que utilizam Apache Camel, onde as rotas geralmente envolvem processos request-response. A lógica do fluxo inclui tratamento de erros e transformações XSLT.
+
+BULLETS:
+- Geralmente utiliza padrões EIP como content-based-router e error-policy
+- Inclui tratamentos de exceções via XSLT ou beans
+- Envolve marshalling, conversão de corpo e desmarshalling
+- Utiliza múltiplos endpoints para diferentes destinos (AWS SQS, AS400, ActiveMQ)
+- Inclusive fluxos síncronos com request-response
+- Captura erros específicos como ExchangeTimedOutException e IOException

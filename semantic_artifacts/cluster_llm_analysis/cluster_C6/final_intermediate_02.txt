@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas revelam um padrão comum em roteamentos de erros no Apache Camel, focado na centralização do controle de exceções. As descrições demonstram o uso consistente de estruturas como try-catch e error-policy para capturar e processar exceções.
+
+BULLETS:
+- Captura e log de exceções
+- Envio para fila de erros AWS2-SQS
+- Uso de componentes como beanRouteFacade, marshal, aws2-sqs
+- Tratamento adicional com bean ou BodyBackup
+- Registram detalhes do erro em níveis de log variáveis
+- Implementação de 'doTry/doCatch' e 'error-policy'

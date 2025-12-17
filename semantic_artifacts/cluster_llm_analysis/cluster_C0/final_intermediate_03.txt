@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas são predominantemente do tipo request-response, focadas na integração SOAP e no uso de componentes CXF. Elas processam dados provenientes de serviços web ou direcionamentos internos, implementando padrões EIP e encaminhando a execução para backends definidos.
+
+BULLETS:
+- Predominância de roteamento request-response
+- Integração SOAP via componentes CXF
+- Origem de rotas em serviços web ou direcionamentos internos
+- Implementação de padrões EIP (Enterprise Integration Patterns)
+- Processamento e direcionamento para backends definidos

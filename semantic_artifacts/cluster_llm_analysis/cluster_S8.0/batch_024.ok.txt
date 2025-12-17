@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas mostram um conjunto comum de padrões arquiteturais, enfatizando a integração e os tratamentos de erros. Vários fluxos demonstram o uso dos padrões EIP (Enterprise Integration Patterns) como Content-Based Router e Choice.
+
+BULLETS:
+- Usam os padrões EIP para gerenciar fluxos de trabalho complexos.
+- Incluem tratamento de erros em várias formas, usando roteadores condicionais e tentativas de operação.
+- Utilizam mecanismos como bean e xslt para transformações e processamentos específicos.
+- Empregam marcapaixões e backend serviços (como AS400) em vários fluxos.

@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas demonstram um padrão comum de integração centrado em lidar com erros e regras de tratamento de exceções, utilizando o Apache Camel para processamento. As operações envolvem a manipulação do corpo da mensagem e o encaminhamento de mensagens para uma fila de erros SQS.
+
+BULLETS:
+- Utilização de padrões EIP como try-catch e doTry-doCatch
+- Implementação de políticas de erro que capturam exceções e lidam com elas através de marshalling e log de erro
+- Encaminhamento das mensagens tratadas ou não para uma fila de erros AWS SQS

@@ -1,0 +1,7 @@
+PARAGRAFO:
+As descrições analisadas demonstram a prevalência de padrões arquiteturais relacionados à integração de sistemas, com um forte foco em tratamento de erros e fluxos assíncronos.
+
+BULLETS:
+- Padrões EIP (Enterprise Integration Patterns) predominantes incluem "error-policy", "content-based-router" e "request-response".
+- As rotas utilizam componentes técnicos como "bean", "setProperty", "choice", "doTry/doCatch", além de endpoints direct, cxf.
+- O tratamento de exceções é um componente comum, usando diferentes estratégias para lidar com erros, incluindo registro detalhado e encaminhamento para rotas específicas de exceção.

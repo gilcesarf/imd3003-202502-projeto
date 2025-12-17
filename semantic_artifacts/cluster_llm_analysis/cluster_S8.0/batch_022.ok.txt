@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas compartilham um padrão principal de arquitetura em que o Apache Camel processa solicitações e respostas, utilizando uma série de componentes para transformar, validar ou manipular dados antes do retorno ao cliente. A maioria das rotas também implementa mecanismos de tratamento de exceção personalizados.
+
+BULLETS:
+- Padrão arquitetural: Request-Response
+- Componentes comuns: XSLT, Bean, SetHeader, Log
+- Tratamento de exceções: Redirecionamento para rotas específicas ou endpoints de erro, manipulação do cabeçalho de erro

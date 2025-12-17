@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas pertencem ao cluster de integrações orientadas a EIP (Enterprise Integration Patterns) e utilizam padrões comuns na arquitetura de microserviços, focando em comunicação HTTP/SOAP e mensageria assíncrona.
+
+BULLETS:
+- Origem direta ou via CXFRS componentes
+- Uso de ruteadores internos (Direct Component) para direcionar o fluxo
+- Backend ou serviço externo como destino final
+- Falta de lógica de tratamento de erros identificada em várias rotas
+- Padrões assíncronos e sincrônicos, incluindo request-response e saída direta

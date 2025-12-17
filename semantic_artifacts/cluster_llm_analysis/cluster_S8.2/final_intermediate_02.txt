@@ -1,0 +1,13 @@
+PARAGRAFO:
+As rotas analisadas compartilham características comuns relacionadas ao processamento de solicitações e respostas, incluindo a implementação de padrões EIP para gerenciamento de fluxos, tratamento de erros e validações. Esses designs se concentram em roteamentos condicionais, transformações do corpo da mensagem e políticas específicas de erro.
+
+BULLETS:
+- Predominância de padrões EIP como Request-Response, Content-Based Router e Choice.
+- Implementação consistente de tratamento de exceções via try-catch ou choice/doTry/doCatch.
+- Uso frequente de endpoints CXF para integração SOAP.
+- Transformações do corpo da mensagem realizadas com componentes como setBody e choice.
+- Roteamentos baseados em conteúdo utilizando content-based-router.
+- Validação XSD ou XML de mensagens.
+- Tratamento diferenciado de exceções com encaminhamento para rotas específicas.
+- Inclusão de operações de cabeçalho usando property e setProperty.
+- Integração com componentes como XSLT e beans de validação/transformação.

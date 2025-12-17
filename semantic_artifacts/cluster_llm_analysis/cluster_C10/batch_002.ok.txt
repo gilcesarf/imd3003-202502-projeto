@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas compartilham um design de tratamento de erros comuns, utilizando componentes do Apache Camel e padrões EIP para lidar com exceções.
+
+BULLETS:
+- Utiliza o pattern "error-policy" para definir a lógica de tratamento de erros
+- Inclui o uso de "doTry", "doCatch" ou "try/catch" para capturar exceções
+- Implementa log de erros detalhados, utilizando o componente "log"
+- Envia as mensagens tratadas para uma fila de erros, como AWS SQS ou ActiveMQ
+- Aplica transformações necessárias com componentes como "marshal/json", "convertBodyTo"

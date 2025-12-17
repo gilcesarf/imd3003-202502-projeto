@@ -1,0 +1,7 @@
+PARAGRAFO:
+As rotas analisadas são baseadas em um paradigma request-response e utilizam a abordagem de envio síncrono, onde a origem se comunica diretamente com o backend para obter uma resposta antes de continuar.
+
+BULLETS:
+- Utiliza o componente Direct do Apache Camel
+- Implementa comunicação request-response
+- Emprega a integração com AWS SQS de forma síncrona

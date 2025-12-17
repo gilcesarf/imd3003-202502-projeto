@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas analisadas compartilham um conjunto comum de padrões arquiteturais e funcionalidades, focando-se em fluxos de request-response e error-policy. Esses padrões são frequentemente utilizados para lidar com transações de forma segura e robusta.
+
+BULLETS:
+- Implementam estruturas do Enterprise Integration Patterns (EIP) como choice, transformação XSLT e content-based-router.
+- Utilizam o pattern request-response para comunicação síncrona entre sistemas.
+- Incluem tratamento de erros com doTry/doCatch, permitindo que exceções sejam capturadas e direcionadas para rotas específicas de tratamento.
+- Empregam marshalling/unmarshalling para transformar dados entre diferentes formatos (por exemplo, XML <-> JMS).
+- Utilizam beans para lógica de negócios personalizada em pontos estratégicos do fluxo.
+- Incluem mecanismos para logar informações importantes ao longo da rota.

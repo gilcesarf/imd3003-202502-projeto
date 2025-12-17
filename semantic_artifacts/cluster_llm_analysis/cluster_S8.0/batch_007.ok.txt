@@ -1,0 +1,10 @@
+PARAGRAFO:
+As rotas do Apache Camel identificadas são baseadas em padrões arquiteturais comuns, focando na integração de sistemas e processamento de mensagens. Elas utilizam mecanismos de tratamento de erros, transformações XSLT e chamadas a métodos beans para manipular dados.
+
+BULLETS:
+- Utilização de padrões EIP como choice, request-response e error-policy
+- Tratamento de exceções com redeliveries e loggging
+- Transformação XML usando XSLT para processar mensagens
+- Chamadas a métodos beans para lógica customizada
+- Integração com sistemas backend como AS400 e caches
+- Suporte a integrações assíncronas através de filas de mensagem

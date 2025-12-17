@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas demonstram um padrão semelhante no tratamento de erros, com ênfase na captura e registro detalhado desses eventos.
+
+BULLETS:
+- Utilização do patamar "error-policy" para lidar com exceções
+- Inclusão de componentes como bean, marshal.json e convertBodyTo em vários cenários
+- Envio das mensagens tratadas ao AWS2-SQS, especificamente para uma fila dedicada a erros
+- Implementação de tratamento de erros através do bloco try-catch
+- Registro detalhado dos erros via loggings ou chamadas de bean para processamento adicionais

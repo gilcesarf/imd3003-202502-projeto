@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas compartilham uma arquitetura baseada em request-response, com a maioria usando EIPs (Enterprise Integration Patterns) para manipulação de fluxos. A integração entre sistemas e endpoints remotos é um aspecto frequente.
+
+BULLETS:
+- Usam estruturas de rota como direct, choice, bean
+- Tratamento de erros com setProperty, doTry, tratamentos condicionais
+- Inclusão de componentes EIP para manipulação de cabeçalhos e propriedades
+- Envio de mensagens para filas de erro ou endpoints específicos em casos de falha

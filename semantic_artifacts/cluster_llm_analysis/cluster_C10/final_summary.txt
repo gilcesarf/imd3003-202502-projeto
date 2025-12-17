@@ -1,0 +1,14 @@
+PARAGRAFO:
+As rotas Apache Camel do mesmo cluster compartilham um design comum que enfatiza o tratamento de erros e a integração de diferentes sistemas. Elas utilizam políticas de erro para lidar com falhas, encaminhando mensagens para filas específicas e realizando transformações no corpo das mensagens.
+
+BULLETS:
+- Utilizam o padrão try-catch ou doTry/doCatch para capturar exceções
+- Implementam políticas de erro com error-policy para lidar com falhas
+- Encaminham mensagens para filas específicas, como AWS SQS, ActiveMQ ou queues internas configuradas
+- Realizam transformações e manipulações do corpo da mensagem usando componentes como marshal/json e convertBodyTo
+- Incluem a utilização de beans para processamento personalizado antes da decisão de encaminhamento
+- Registram detalhes dos erros no log ou enviam para filas de erros
+- Tratamento de erros através da implementação de políticas de erro
+- Conversões entre formatos, incluindo marshalling para JSON
+- Logs e intercepções (wire taps) para monitorar e redirecionar mensagens
+- Integração com sistemas externos como AWS SQS, ActiveMQ e API Gateway

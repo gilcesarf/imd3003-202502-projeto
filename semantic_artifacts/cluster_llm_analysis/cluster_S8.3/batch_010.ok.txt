@@ -1,0 +1,9 @@
+PARAGRAFO:
+As rotas analisadas mostram uma forte ênfase em arquiteturas sincrônizas com foco no tratamento de exceções e manipulação do corpo da mensagem. A integração entre diferentes sistemas é comumente realizada através de endpoints diretos, beans e endpoints CXFRS ou ActiveMQ.
+
+BULLETS:
+- Usam padrões arquiteturais como Request-Response e Choice
+- Incorporam mecanismos de tratamento de exceções utilizando doTry/doCatch, choice, e wire-tap para capturar erros.
+- Incluem transformações de corpo da mensagem através de operações de remoção e configuração de cabeçalhos.
+- Utilizam endpoints diretos (direct) e CXFRS para comunicação com sistemas externos.
+- Integrantes de EIP como BeanComponent, RouteFacade, e choice são utilizados para manipulação condicional dos fluxos de mensagens.

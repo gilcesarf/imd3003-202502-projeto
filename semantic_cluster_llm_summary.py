@@ -16,7 +16,8 @@ CLUSTERS_FILE = BASE_ARTIFACTS_DIR / "clusters_final.parquet"
 
 OUTPUT_ROOT = BASE_ARTIFACTS_DIR / "cluster_llm_analysis"
 
-TEST_ONLY_CLUSTER = "S8.2"   # None para rodar todos
+#TEST_ONLY_CLUSTER = "S8.2"   # None para rodar todos
+TEST_ONLY_CLUSTER = None   # None para rodar todos
 
 OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "qwen2.5:7b")
 OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")

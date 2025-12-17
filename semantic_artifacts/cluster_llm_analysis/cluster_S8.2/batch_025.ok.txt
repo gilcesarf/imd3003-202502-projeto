@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas compartilham uma arquitetura orientada a mensagens com padrões de design de integração estabelecidos, como o EIP (Enterprise Integration Patterns). A maioria das rotas utiliza a estrutura "request-response", indicando que esperam uma solicitação e fornecem uma resposta ao cliente.
+
+BULLETS:
+- As rotas implementam tratamento de exceções, capturando erros e redirecionando para roteadores específicos.
+- A lógica de escolha (choice) é utilizada para direcionar a mensagem com base em propriedades ou condições definidas.
+- O tratamento de exceções é centralizado em roteadores dedicados, como "ExcepcionRoute", facilitando a manutenção e o controle.
+- A definição de propriedades (setProperty) é frequentemente utilizada para configurar parâmetros de processo antes do fluxo principal.

@@ -1,0 +1,8 @@
+PARAGRAFO:
+As rotas analisadas são predominantemente de padrão request-response, utilizando principalmente o componente CXF para integração SOAP. A maioria delas origina-se em serviços web ou direcionamentos e direciona a um backend para processamento, com uma saída definida.
+
+BULLETS:
+- Origem em serviços web ou direcionamentos
+- Processamento no backend
+- Saída definida após o processamento
+- Uso principal do componente CXF para integração SOAP
