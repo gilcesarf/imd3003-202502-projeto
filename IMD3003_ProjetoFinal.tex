@@ -321,15 +321,30 @@ A Figura~\ref{fig:umap3d-dendrogram} apresenta o dendrograma resultante da aplic
 \caption{Dendrograma obtido a partir da clusterização aglomerativa aplicada ao supercluster isolado na projeção UMAP 3D.}
 \label{fig:umap3d-dendrogram}
 \end{figure}
-
-Com base nessa análise, foi selecionada uma altura de corte que resultou em um particionamento mais equilibrado do supercluster. A Figura~\ref{fig:umap3d-agglomerative} apresenta a abertura correspondente desse agrupamento, evidenciando subclusters mais estáveis e com melhor separação geométrica.
+Com base nesse dendograma foram selecionadas tres alturas de corte interessantes: 12, resultando em 6 clusters; 14, resultando em 5 clusters; e 16, resultando em 4 clusters. As tres alternativas podem ser observadas nos gráficos a seguir:
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1.1\textwidth]{umap3d_agglomerative_supercluster.png}
-\caption{Resultado da clusterização aglomerativa aplicada ao supercluster, após definição do ponto de corte no dendrograma.}
+\includegraphics[width=1.1\textwidth]{umap3d_agglomerative_supercluster_K6.png}
+\caption{Clusterização aglomerativa, ponto de corte 12 resulta em 6 clusters.}
 \label{fig:umap3d-agglomerative}
 \end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\textwidth]{umap3d_agglomerative_supercluster_K5.png}
+\caption{Clusterização aglomerativa, ponto de corte 14 resulta em 5 clusters.}
+\label{fig:umap3d-agglomerative}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\textwidth]{umap3d_agglomerative_supercluster_K4.png}
+\caption{Clusterização aglomerativa, ponto de corte 16 resulta em 4 clusters.}
+\label{fig:umap3d-agglomerative}
+\end{figure}
+
+Com base na inspeção visual foi selecionada uma altura de corte 16, que resultou em um particionamento mais equilibrado do supercluster, com 4 clusters resultantes. A abertura correspondente desse agrupamento evidencia subclusters mais estáveis e com melhor separação geométrica.
 
 Por fim, os resultados foram recompostos em uma visão global de dois níveis, combinando os rótulos obtidos pelo HDBSCAN na projeção UMAP 3D com os subclusters derivados da clusterização aglomerativa aplicada ao supercluster. A Figura~\ref{fig:umap3d-final} apresenta essa recomposição final, permitindo visualizar simultaneamente a estrutura global dos agrupamentos e as variações semânticas internas previamente ocultas. Cabe destacar que a versão dos gráficos tridimensionais gerada no ambiente de notebooks Jupyter é interativa quando executada localmente em ferramentas como VS Code ou similares, possibilitando a rotação, aproximação e inspeção detalhada das estruturas dos clusters. Essa interatividade permite uma análise mais precisa das relações espaciais entre os agrupamentos e incentiva o leitor a explorar essas visualizações para um entendimento mais aprofundado, uma vez que a representação estática em 3D apresentada no documento possui limitações inerentes ao processo de projeção bidimensional em papel.
 
